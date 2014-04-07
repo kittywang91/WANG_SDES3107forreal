@@ -1,0 +1,16 @@
+//7.3
+smooth();
+noFill();
+beginShape();
+vertex(10,10);
+bezierVertex(14,20,16,45,10,80);
+vertex(20,80);
+bezierVertex(24,75,26,70,20,65);
+bezierVertex(42,50,44,65,40,80);
+vertex(55,80);
+bezierVertex(40,50,32,55,20,60);
+bezierVertex(35,30,30,20,45,30);
+vertex(40,30);
+bezierVertex(30,30,25,20,20,55);
+bezierVertex(18,12,16,14,20,10);
+endShape(CLOSE);
